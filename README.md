@@ -71,5 +71,7 @@ The Phoenix Tuner is only available for Windows users. For Windows users, the Ph
 ## ***Final Notes***
 Please note you should update all of these libraries as soon as a new release comes out.
 
+## ***Authors***
+- [Team 3647, Edward Sun](https://github.com/EdwardoSunny)
 
 
