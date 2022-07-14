@@ -1,5 +1,5 @@
 # Project 0_0: Setting Up Your Environment
-This is a guide on how to set up your programming environment on your computer to start programming robots in the ***FIRST Robotics Competition (FRC).*** This guide should work for Windows, MacOS, and Linux with the included guides. Please read through this carefully and follow every single instruction. 
+This is a guide on how to set up your programming environment on your computer to start programming robots in the ***FIRST Robotics Competition (FRC).*** This guide should work for Windows, MacOS, and Linux with the included guides. Please read through this carefully and follow every single instruction.
 
 ## ***WPILib***
 ### What is WPILib?
@@ -18,17 +18,17 @@ WPILib usually has yearly releases parallel to yearly FRC game releases where th
 ### How to Install WPILib?
 Please follow [this guide](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html) to install WPILib.
 
-## ***REVLib and SPARKMAX Client***
+## ***REVLib and REV Hardware Client***
 ### What is REVLib?
 <!---![](REV.png)--->
 <img src="images\REV.png" alt="drawing" width="200"/>
 
 ***REVLib*** is a 3rd party code library created by REV Robotics. This library is designed specifically to control REV Robotics products and devices such as the SPARKMAX Motor Controller or the REV Color Sensor. Similar to WPILib, REVLib is suppored in Java and C/C++. ([Read More](https://www.revrobotics.com/))
 
-### What is SPARKMAX Client?
+### What is REV Hardware Client?
 <img src="images\SparkClient.png" alt="drawing" width="200"/>
 
-Other than REVLib, REV Robotics has a desktop application called ***SPARKMAX Client*** This is used to directly control motors without writing any code. You can also direct configure motors with this. 
+Other than REVLib, REV Robotics has a desktop application called ***REV Hardware Client*** This is used to directly control motors without writing any code. You can also direct configure motors, update firmware on the PDH, etc. with this software.
 
 ### How to Install REVLib?
 1. Please follow [this guide](https://docs.revrobotics.com/sparkmax/software-resources/spark-max-api-information#c++-and-java) to install REVLib .zip file.
@@ -39,8 +39,8 @@ Other than REVLib, REV Robotics has a desktop application called ***SPARKMAX Cli
 5. Drag/Move the files inside the extracted REVLib\\vendordeps folder into
 (Windows) C:\\Users\\Public\\wpilib\\2022\\vendordeps or (MacOS/Linux) ~/wpilib/2022/vendordeps
 
-### How to Install SPARKMAX Client?
-Please follow [this guide](https://docs.revrobotics.com/sparkmax/spark-max-client/getting-started-with-the-spark-max-client) to install SPARKMAX Client.
+### How to Install REV Hardware Client?
+Please follow [this guide](https://docs.revrobotics.com/sparkmax/spark-max-client/getting-started-with-the-spark-max-client) to install REV Hardware client.
 
 ## ***Phoenix and Phoenix Tuner***
 ### What is Phoenix?
